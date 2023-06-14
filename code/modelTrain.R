@@ -51,7 +51,8 @@ history <- model_to_train %>% fit(
     verbose = TRUE,
 )
 
-save_model_weights_hdf5(model_to_train, model_weight)
+model_weight_new <- paste0("model_to_train_", Sys.Date(), ".h5")
+save_model_weights_hdf5(model_to_train, model_weight_new)
 
 test_input_data <- aperm(test_data_x, c(3, 1, 2))
 test_label_data <- unlist(test_data_y) # 有疑慮但先這樣
