@@ -105,7 +105,8 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
 
 ### results
 * Training Data 使用LSTM產生之模型的預測結果
-  ![](results/trainingdata結果分析-預測開花日及實際開花日天數差佔比_折線圖.jpg)
+  ![max-width: 50%](results/trainingdata結果分析-預測開花日及實際開花日天數差佔比_折線圖.jpg)
+  
 * Test Data 使用LSTM產生之模型的預測結果
 
 ## References
