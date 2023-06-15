@@ -104,9 +104,9 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
     * Keras
 
 ### results
-* What is a null model for comparison?
-* How do your perform evaluation?
-  * Cross-validation, or extra separated data
+* Training Data 使用LSTM產生之模型的預測結果
+  ![](results/trainingdata結果分析-預測開花日及實際開花日天數差佔比_折線圖.jpg)
+* Test Data 使用LSTM產生之模型的預測結果
 
 ## References
 * Packages you use
