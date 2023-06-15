@@ -1,4 +1,4 @@
-![image](https://github.com/1112-datascience-inservice/final-project-group5/assets/126131693/1aa3b0a5-3969-4d81-bb27-b9b7a8bfc968)# [group5] 櫻前線預測
+# [group5] 櫻前線預測
 用過去的天氣資料使用深度模型預測櫻花開花日
 
 ## Contributors
