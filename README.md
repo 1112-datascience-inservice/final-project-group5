@@ -105,9 +105,16 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
 
 ### results
 * Training Data 使用LSTM產生之模型的預測結果
-  ![max-width: 50%](results/trainingdata結果分析-預測開花日及實際開花日天數差佔比_折線圖.jpg)
-  
+  * 使用LSTM模型，針對Training Data進行預測，共預測834筆。預測櫻花開花日與實際開花日相同約近半數。
+    * <img src="results/trainingdata結果分析-預測開花日及實際開花日天數差佔比_折線圖.jpg" width="65%">
+    * <img src="results/trainingdata結果分析-預測開花日及實際開花日天數差佔比_折線圖(排除0).jpg" width="65%">  
+  * 預測櫻花開花日與實際開花日在±2日間約53.49%；預測櫻花開花日與實際開花日在±10日間約75.39%。
+    * <img src="results/trainingdata結果分析-預測開花日及實際開花日天數差佔比_表.jpg" width="65%">
 * Test Data 使用LSTM產生之模型的預測結果
+  * 於Test Data 的20個城市中隨機各抽取10年資料透過模型進行預測，共預測200筆。
+    * <img src="results/testdata結果分析-預測開花日及實際開花日天數差佔比_折線圖.jpg" width="65%">
+  * 預測櫻花開花日與實際開花日在±2日間約17.0%；預測櫻花開花日與實際開花日在±5日間約41.0%；預測櫻花開花日與實際開花日在±10日間約62.0%。
+    * <img src="results/testdata結果分析-預測開花日及實際開花日天數差佔比_表.jpg" width="65%">
 
 ## References
 * Packages you use
@@ -121,3 +128,5 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
     - https://arxiv.org/pdf/2210.04406.pdf 2020 的論文，使用了 SVM 與 LSTM
     - https://pansci.asia/archives/115553 櫻花櫻花何時開！日本的櫻花預報「櫻前線」是怎麼算出來的？ - PanSci 泛科學
     - https://omdena.com/blog/time-series-classification-model-tutorial/
+   
+
