@@ -7,7 +7,7 @@
 |許瀞文|資科碩一|111971010|資料前處理撰寫/LSTM 訓練模型規劃與訓練|
 |商瑞珊|資科碩一|111971014|資料蒐集 資料前處理 預測結果視覺化|
 |許瑋如|資科碩一|111971017|資料前處理 模型訓練結果輸出資料視覺化|
-|洪明義|資科碩二|110971013||
+|洪明義|資科碩二|110971013|資料爬取、預測結果程式撰寫|
 
 ## Enviroment
 * With Python
@@ -39,9 +39,7 @@ Rscript code/modelTrain.R --weight "data/model/model_to_train_final.h5" --summar
 idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
 
 ### docs
-* Your presentation, 1112_DS-FP_groupID.ppt/pptx/pdf (i.e.,1112_DS-FP_group1.ppt), by **06.08**
-* Any related document for the project
-  * i.e., software user guide
+* docs/1112_DS-FP_group5.pptx
 
 ### data
 * Input
